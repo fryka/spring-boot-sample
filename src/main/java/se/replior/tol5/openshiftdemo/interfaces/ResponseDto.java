@@ -5,6 +5,24 @@ import java.net.InetAddress;
 public class ResponseDto {
 
     private String localHostName;
+
+    public String getLocalHostIp() {
+        return localHostIp;
+    }
+
+    public void setLocalHostIp(String localHostIp) {
+        this.localHostIp = localHostIp;
+    }
+
+    public String getLocalHostName() {
+
+        return localHostName;
+    }
+
+    public void setLocalHostName(String localHostName) {
+        this.localHostName = localHostName;
+    }
+
     private String localHostIp;
 
     public ResponseDto() {
